@@ -7,12 +7,12 @@ A progressive Python learning project focused on building practical security too
 ## Structure
 
 ```
-├── 1_Foundation/        # Core Python syntax
-├── 2_Toolbox/           # Standard library modules
+├── 1_Foundation/            # Core Python syntax
+├── 2_Toolbox/               # Standard library modules
 │   └── Project_CLI_Tool/    # Phase 2 mini-project: CLI recon tool
-├── 3_Network/           # Networking and socket programming
+├── 3_Network/               # Networking and socket programming
 │   └── Project_Scanner/     # Phase 3 mini-project: multithreaded port scanner
-└── 4_Hacking_Scripts/   # Offensive tooling
+└── 4_Hacking_Scripts/       # Offensive tooling
     └── Project_Toolkit/     # Phase 4 mini-project: recon & enumeration toolkit
 ```
 
