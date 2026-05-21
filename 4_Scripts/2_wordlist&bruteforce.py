@@ -60,3 +60,18 @@ brute_force("admin", string.digits, 4)
 # and a list of passwords (just use a plain Python list, no file needed). 
 # Make `try_login()` return True only for the password 'letmein'. 
 # Run the attack against ['password', 'admin', '123456', 'letmein', 'qwerty'] and print found credentials.
+def try_login(username, password):
+    # mock login setup
+    return password == "letmein"
+
+def wordlist_attack(username, passwords):
+    for i, password in enumerate(passwords):
+        print(f"[*] Trying: {password}")
+        if try_login(username, password):
+            print(f"[+] Found: {username}:{password}")
+            return password
+    print("[-] Not found")
+    return None
+
+wordlist = ["password", "admin", "123456", "letmein", "qwerty"]
+wordlist_attack("admin", wordlist)
