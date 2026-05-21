@@ -65,4 +65,4 @@ def scan_limited(ip, port):
 # and use a Semaphore to limit to 100 concurrent threads. 
 # Compare the speed difference against your original version.
 #
-# see 2.1_threadingExercise
+# see 2_threadingExercise
