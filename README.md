@@ -29,7 +29,7 @@ Standard library modules used in real scripts: `os`, `sys`, `argparse`, `re`, `s
 **Mini-project:** A CLI recon tool that validates a target, pings the host, grabs the SSH banner, and saves a timestamped JSON report.
 
 ```bash
-py CLIReconTool.py -t 192.168.1.1 -p 22 -v -o
+py ProjectPhase2.py -t 192.168.1.1 -p 22 -v -o
 ```
 
 ### Phase 3 - Networking
