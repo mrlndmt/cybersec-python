@@ -30,10 +30,10 @@ print(is_port_open("45.33.32.156", 9999))
 # SOCK.DGRAM    = UDP (fast, connectionless)
 
 # --- scan a range of ports ---
-#target = "45.33.32.156"
-#for port in range(20, 25):
-#    if is_port_open(target, port):
-#        print(f"[+] Port {port} open")
+target = "45.33.32.156"
+for port in range(20, 25):
+    if is_port_open(target, port):
+        print(f"[+] Port {port} open")
 
 # --- UDP example (DNS lookup on port 53) ---
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)         # IPv4 - UDP
