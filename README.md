@@ -1,4 +1,4 @@
-# Python for Ethical Hacking — Learning Project
+# Python for Ethical Hacking - Learning Project
 
 A progressive Python learning project focused on building practical security tools from scratch. Each phase builds on the previous, culminating in real recon and enumeration tools.
 
@@ -20,10 +20,10 @@ A progressive Python learning project focused on building practical security too
 
 ## Phases
 
-### Phase 1 — Foundation
+### Phase 1 - Foundation
 Core Python refresher with security-oriented examples: variables, control flow, functions, lists and dicts, file I/O, and error handling.
 
-### Phase 2 — Toolbox
+### Phase 2 - Toolbox
 Standard library modules used in real scripts: `os`, `sys`, `argparse`, `re`, `subprocess`, `json`, `csv`, `datetime`.
 
 **Mini-project:** A CLI recon tool that validates a target, pings the host, grabs the SSH banner, and saves a timestamped JSON report.
@@ -32,7 +32,7 @@ Standard library modules used in real scripts: `os`, `sys`, `argparse`, `re`, `s
 py CLIReconTool.py -t 192.168.1.1 -p 22 -v -o
 ```
 
-### Phase 3 — Networking
+### Phase 3 - Networking
 Network programming with `socket`, `requests`, `urllib`, and `threading`. Covers TCP connect scanning, HTTP fingerprinting, URL parsing, and multithreaded scanning.
 
 **Mini-project:** A multithreaded port scanner with web fingerprinting and structured JSON output.
@@ -58,7 +58,7 @@ Sample output:
 }
 ```
 
-### Phase 4 — Hacking Scripts
+### Phase 4 - Hacking Scripts
 Practical offensive tools: port scanner with progress counter, wordlist password attack, web directory fuzzer, SSH log parser, and subdomain enumerator.
 
 ---
