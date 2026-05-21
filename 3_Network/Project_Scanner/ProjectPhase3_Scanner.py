@@ -13,7 +13,6 @@ import time
 import threading
 import requests
 from urllib.parse import urlparse, urlencode, quote, urljoin
-#from scapy.all import IP, TCP, sr1, sniff
 
 # What should it do:
 # 1. Accept a target via argparse (-t)
