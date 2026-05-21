@@ -1,4 +1,4 @@
-# Python for Ethical Hacking - Learning and Exercises
+# Python for Ethical Hacking - Learning Project
 
 A progressive Python learning project focused on building practical security tools from scratch. Each phase builds on the previous, culminating in real recon and enumeration tools.
 
