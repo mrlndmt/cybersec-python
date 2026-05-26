@@ -1,0 +1,61 @@
+{
+    "target": "scanme.nmap.org",
+    "ip": "45.33.32.156",
+    "timestamp": "2026-05-27 01:09:31",
+    "open_ports": [
+        22,
+        80
+    ],
+    "banners": {
+        "22": "SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2.13"
+    },
+    "http": {
+        "status": 200,
+        "server": "Apache/2.4.7 (Ubuntu)",
+        "powered_by": "not found",
+        "login_form": true
+    },
+    "directories": [
+        [
+            ".htpasswd",
+            403
+        ],
+        [
+            ".htaccess",
+            403
+        ],
+        [
+            ".hta",
+            403
+        ],
+        [
+            ".svn",
+            301
+        ],
+        [
+            "favicon.ico",
+            403
+        ],
+        [
+            "images",
+            301
+        ],
+        [
+            "index",
+            200
+        ],
+        [
+            "index.html",
+            200
+        ],
+        [
+            ".svn/entries",
+            403
+        ],
+        [
+            "shared",
+            301
+        ]
+    ],
+    "subdomains": []
+}
